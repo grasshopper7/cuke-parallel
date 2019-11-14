@@ -16,7 +16,7 @@ public class StepDefinition {
 	
 	@BeforeStep
 	public void beforeStep() throws InterruptedException {
-		Thread.sleep(500);
+		Thread.sleep(250);
 	}
 	
 	@And("this is {string} step")
